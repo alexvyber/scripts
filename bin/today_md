@@ -24,7 +24,7 @@ def get_delta_since_start():
 )
 @click.option("-off", is_flag=True, help="Subject you have been learning")
 @click.option(
-    "-dur", prompt="How long? (hours)", default=2, help="Time you have been learning"
+    "-dur", prompt="How long? (hours)", default="2", help="Time you have been learning"
 )
 def today_md(subj, dur, off):
     """Create md file for todays progress report"""
