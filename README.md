@@ -1,1 +1,1 @@
-## Scripts written in defferent languages
+## Scripts written in js
