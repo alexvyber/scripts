@@ -13,7 +13,7 @@ const { log } = console
 const fileFormats = [".mp3", ".m4b"]
 
 const dir = process.argv[2]
-const flag = process.argv[3] // 'all'
+const flag = process.argv[3]
 
 readdir(dir, async function (err, files) {
   if (err) throw err
